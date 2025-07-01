@@ -1,0 +1,11 @@
+%YAML:1.0
+
+# Camera device number
+stereo_dev_port: /dev/video2
+# Camera output frame rate, currently only supports setting to 30FPS, requires root privileges
+stereo_fps: 60          #[30/60]
+
+# Imu device number
+imu_dev_port: /dev/video4
+# The gravity acceleration value of the device location
+gravity: 9.7946   
